@@ -2,7 +2,7 @@ grip.js
 =======
 ![asd](http://heimdash.com/grip.svg)  
 
-Steven Taylors mouth says: Get a grip, dude.
+Steven Taylors mouth says: Get a grip, dude.  
 Grip.js is a lightweight (1kb) insertion switch for Javascript modules.  
 Borrowing from require.js, a single script tag in your HTML will
 
