@@ -1,4 +1,4 @@
-![asd](http://heimdash.com/gripjs.svg)
+![asd](http://heimdash.com/grip.svg)
 grip.js
 =======
 
