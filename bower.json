@@ -1,0 +1,13 @@
+{
+  "name": "spark-js",
+  "version": "0.1.0",
+  "authors": [ "Paul Solbach" ],
+  "description": "Spark.js is a lightweight (1kb) dependency insertion switch for Javascript modules.",
+  "license": "(c) 2014 Paul Solbach, BSD and MIT",
+
+  "ignore": [
+    ".gitignore",
+    "bower.json",
+    ".bowerrc"
+    ],
+}
