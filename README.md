@@ -5,9 +5,9 @@ grip.js
   
   
   
-Grip.js is a lightweight (1kb) insertion switch for Javascript modules.  
+Grip.js is a lightweight (1kb) insertion switch for Javascript files.  
 This can help replace Grunt or any other full-fledged build system in favor  
-of a more minimal approach. Borrowing from require.js,  
+of a more minimal approach. Borrowing from [require.js](https://github.com/jrburke/requirejs),  
 a single script tag in your HTML will
 
 1. Insert an array of unpacked Javascript modules for development.
