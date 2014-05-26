@@ -2,7 +2,6 @@ grip.js
 =======
 ![asd](http://heimdash.com/grip.svg)  
 
-Steven Taylors mouth says: Get a grip, dude.  
 Grip.js is a lightweight (1kb) insertion switch for Javascript modules.  
 Borrowing from require.js, a single script tag in your HTML will
 
@@ -49,3 +48,7 @@ Consider this snippet where d, b, p, m map to opt.debug, opt.baseUrl, opt.min, o
 ### Questions?
 
 Feel free to drop a line to p@psolbach.com or @_p0wly
+
+### Acknowledgments
+
+Steven Taylor did not sue. Yet.
