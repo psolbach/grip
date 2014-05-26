@@ -32,6 +32,7 @@ Your `module.js` should look something like this:
 
 Using a shell script in the flavor of [shelljs](https://github.com/arturadib/shelljs) one could go about and
 fully integrate the generation of `modules.js` into the make/debug process.
+Consider this snippet where d, b, p, m map to opt.debug, opt.baseUrl, opt.min, opt.modules.
 
     function makeSpark(d,b,p,m) {
       var o = { "debug": d, "baseUrl": b, "min": "/" + p,
@@ -40,6 +41,8 @@ fully integrate the generation of `modules.js` into the make/debug process.
       
       file.to(conf.base + conf.modules);
     }
+
+
     
 ### Questions?
 
