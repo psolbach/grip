@@ -2,12 +2,12 @@ grip.js
 =======
 ![asd](http://heimdash.com/grip.svg)  
 
+Steven Taylors mouth says: Get a grip, dude.
 Grip.js is a lightweight (1kb) insertion switch for Javascript modules.  
 Borrowing from require.js, a single script tag in your HTML will
 
 1. Insert an array of unpacked Javascript modules for development.
 2. Or a pretailored minified script without overhead.
-3. Place a firm grip on your Kool-Aid
 
 ### Usage
 
