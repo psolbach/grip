@@ -9,9 +9,11 @@ Borrowing from require.js, a single script tag in your HTML will
 
 ## Usage
 
-Options live inside the 'module.js' which is referenced via a data-tag in the `<script>`. A sample embed would be:
+Options live inside the 'module.js' which is referenced via a data-tag in the `<script>`.  
+A sample embed would be:
 
-    <script charset="utf-8" data-options="/dpatools/static/dist/modules.js" src="/dpatools/static/vendor/spark.js"></script>
+    <script charset="utf-8" data-options="/dpatools/static/dist/modules.js"
+    src="/dpatools/static/vendor/spark.js"></script>
     
 Your `module.js` should look something like this:
 
