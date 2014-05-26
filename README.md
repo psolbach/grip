@@ -1,6 +1,6 @@
 grip.js
 =======
-![asd](http://heimdash.com/grip.svg)
+![asd](http://heimdash.com/grip.svg)  
 Grip.js is a lightweight (1kb) dependency insertion switch for Javascript modules.  
 Borrowing from require.js, a single script tag in your HTML will
 
