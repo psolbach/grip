@@ -4,13 +4,14 @@ grip.js
 ![asd](http://heimdash.com/grip.svg)  
   
 Grip.js is a lightweight (1kb) insertion switch for Javascript modules.
-Grip can replace Grunt or any other full-fledged task runner and
-integrate with a more minimal approach. Borrowing from require.js,
+Grip can help replace Grunt or any other full-fledged task runner
+with a more minimal approach. Borrowing from require.js,
 a single script tag in your HTML will
 
 1. Insert an array of unpacked Javascript modules for development.
 2. Or a pretailored & minified production version of your JS.
 
+### Performance
 
 Your HTML remains untouched. Field test have proven that this speeds
 up perceived and actual load time -- so don't wander off just yet.
