@@ -1,7 +1,7 @@
-grip.js
+spark.js
 =======
 
-Grip.js is a lightweight (1kb) dependency insertion switch for Javascript modules.  
+Spark.js is a lightweight (1kb) dependency insertion switch for Javascript modules.  
 Borrowing from require.js, a single script tag in your HTML will
 
 1. Insert an array of unpacked Javascript modules for development.
@@ -9,7 +9,7 @@ Borrowing from require.js, a single script tag in your HTML will
 
 ### Usage
 
-Options live inside the `module.js which is referenced via a data-tag in the `<script>`.  
+Options live inside the 'module.js' which is referenced via a data-tag in the `<script>`.  
 A sample embed would be:
 
     <script charset="utf-8" data-options="/dpatools/static/dist/modules.js"
@@ -33,7 +33,7 @@ Your `module.js` should look something like this:
 Using a shell script in the flavor of [shelljs](https://github.com/arturadib/shelljs) one could go about and
 fully integrate the generation of `modules.js` into the make/debug process.
 
-    function gripIt(d,b,p,m) {
+    function makeSpark(d,b,p,m) {
       var o = { "debug": d, "baseUrl": b, "min": "/" + p,
         "modules": d ? m : [] }, file = "'use strict'; window.opt = "
          + JSON.stringify(o)
