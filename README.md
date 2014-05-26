@@ -15,7 +15,7 @@ a single script tag in your HTML will
 
 ### Performance
 
-Your HTML remains untouched. Scripts are pulled in a dynamic fashion.
+Your HTML remains untouched. Scripts are pulled in a dynamic fashion.  
 Field test have proven that this speeds up perceived and actual load time  
 -- so don't wander off just yet.
 
