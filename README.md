@@ -1,7 +1,7 @@
 grip.js
 =======  
 
-![asd](http://heimdash.com/grip.svg)  
+![asd](http://heimdash.com/gripjs.svg)  
   
   
   
