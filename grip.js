@@ -36,10 +36,10 @@ window.Grip = {
         this.append(url, head, this.options);
     },
 
-    append: function(els,t,c) {
+append: function(els,t,c) {
         // Create script element w/ src
         (typeof(els) === "string") && (els = [els])
-        var randQS = Math.random().toString(36).substring(7),
+        var qS = Math.random().toString(36).substring(7),
             i = 0, len = els.length,
             
             createEls = function self() {
@@ -48,8 +48,7 @@ window.Grip = {
                 var s = document.createElement('script'); 
                 if (len>i+1) s.onload = s.onreadystatechange = self;
                 else s.onload = s.onreadystatechange = c;
-
-                s.src = els[i] + "?"+ randQS;
+                s.src = els[i] + (len>1 ? "?" + qS : "");
                 s.type = "text/javascript"; 
                 s.charset = "utf-8";
 
@@ -61,7 +60,6 @@ window.Grip = {
 
         // Append
         createEls()
-
     },
 
     options: function() {
