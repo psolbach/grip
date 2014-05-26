@@ -11,7 +11,7 @@ Borrowing from require.js, a single script tag in your HTML will
 
 ### Usage
 
-Options live inside a `.js` which is referenced via data-tag in the `<script>`.  
+Options live inside a `.js` which is referenced via data-attribute in the `<script>`.  
 A sample embed would thusly look a whole lot like this:
 
     <script charset="utf-8" data-options="/static/dist/modules.js"
