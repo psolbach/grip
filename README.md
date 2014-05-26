@@ -41,6 +41,6 @@ fully integrate the generation of `modules.js` into the make/debug process.
       file.to(conf.base + conf.modules);
     }
     
-## Questions?
+### Questions?
 
 Feel free to drop a line to p@psolbach.com or @_p0wly
