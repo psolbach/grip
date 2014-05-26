@@ -50,6 +50,6 @@ Consider this snippet where d, b, p, m map to opt.debug, opt.baseUrl, opt.min, o
 
 Feel free to drop a line to p@psolbach.com or @_p0wly
 
-### Acknowledgments
+### Acknowledgements
 
 Aerosmith didn't sue. Yet.
