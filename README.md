@@ -14,10 +14,9 @@ Borrowing from require.js, a single script tag in your HTML will
 Options live inside a `.js` which is referenced via data-attribute in the `<script>`.  
 A sample embed would thusly look a whole lot like this:
 
-    <script charset="utf-8" data-options="/static/dist/modules.js"
-    src="/vendor/grip.min.js"></script>
+    <script charset="utf-8" data-options="modules.js" src="grip.min.js"></script>
     
-Your `modules.js` should look something like this:
+Your `modules.js` should resemble something like this:
 
     'use strict';
     window.opt = {
