@@ -9,6 +9,13 @@ Borrowing from require.js, a single script tag in your HTML will
 1. Insert an array of unpacked Javascript modules for development.
 2. Or a pretailored & minified production version of your JS.
 
+Grip can replace Grunt or any other full-fledged task runner and
+integrate with a more minimal approach using shell/js scripts.
+
+Your HTML remains untouched -- but don't panic just yet
+at the sheer terror of having more to-and-back from dynamic loads.
+Fields test have proven that this speeds up perceived and actual load times.
+
 ### Usage
 
 Options live inside a `.js` which is referenced via data-attribute in the `<script>`.  
