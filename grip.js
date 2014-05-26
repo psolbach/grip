@@ -1,12 +1,12 @@
 /*!
- * Spark.js v0.1.0
+ * Grip.js v0.1.0
  *
  * Copyright (c) Paul Solbach
  * Available under the BSD and MIT licenses
  */
 
 /*
- * Spark.js is a lightweight (1kb) dependency
+ * Grip.js is a lightweight (1kb) dependency
  * insertion switch for Javascript modules.
  * Load an array of unpacked Javascript modules
  * for development or a pretailored minified script
@@ -20,7 +20,7 @@ var target = document.body.lastChild,
     body = document.getElementsByTagName('body')[0];
 
 
-window.Spark = {
+window.Grip = {
 
     init: function() {
         // Load Options from .js
@@ -86,17 +86,17 @@ window.Spark = {
             ? moduleList(opt.modules, opt.baseUrl)
             : [opt.baseUrl + "main.js"];
 
-        Spark.out(opt)
+        Grip.out(opt)
     },
 
     out: function(opt) {
 
         // Use minified?
-        if (!opt.debug) Spark.append(opt.min, body);
-        else Spark.append(opt.modules);
+        if (!opt.debug) Grip.append(opt.min, body);
+        else Grip.append(opt.modules);
     }
 
 }
 
-Spark.init()
+Grip.init()
 
