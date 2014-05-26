@@ -7,7 +7,7 @@ Borrowing from require.js, a single script tag in your HTML will
 1. Insert an array of unpacked Javascript modules for development.
 2. Or a pretailored minified script without overhead.
 
-## Usage
+### Usage
 
 Options live inside the 'module.js' which is referenced via a data-tag in the `<script>`.  
 A sample embed would be:
@@ -28,9 +28,9 @@ Your `module.js` should look something like this:
     		]
     }
     
-## Workflow with shell.js
+### Workflow with shell.js
 
-Using a shell script in the flavor of https://github.com/arturadib/shelljs one could go about and
+Using a shell script in the flavor of [shelljs](https://github.com/arturadib/shelljs) one could go about and
 fully integrate the generation of `modules.js` into the make/debug process.
 
     function makeSpark(d,b,p,m) {
