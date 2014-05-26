@@ -7,7 +7,7 @@ Grip.js is a lightweight (1kb) insertion switch for Javascript modules.
 Borrowing from require.js, a single script tag in your HTML will
 
 1. Insert an array of unpacked Javascript modules for development.
-2. Or a pretailored minified script without overhead.
+2. Or a pretailored & minified production version of your JS.
 
 ### Usage
 
