@@ -1,5 +1,6 @@
 grip.js
-=======
+=======  
+
 ![asd](http://heimdash.com/grip.svg)  
 
 Grip.js is a lightweight (1kb) insertion switch for Javascript modules.  
