@@ -10,13 +10,13 @@ Borrowing from require.js, a single script tag in your HTML will
 
 ### Usage
 
-Options live inside the 'module.js' which is referenced via a data-tag in the `<script>`.  
+Options live inside a `.js` which is referenced via data-tag in the `<script>`.  
 A sample embed would be:
 
     <script charset="utf-8" data-options="/static/dist/modules.js"
     src="/vendor/grip.min.js"></script>
     
-Your `module.js` should look something like this:
+Your `modules.js` should look something like this:
 
     'use strict';
     window.opt = {
