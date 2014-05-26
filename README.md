@@ -51,4 +51,4 @@ Feel free to drop a line to p@psolbach.com or @_p0wly
 
 ### Acknowledgments
 
-Steven Taylor did not sue. Yet.
+Aerosmith didn't sue. Yet.
