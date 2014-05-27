@@ -1,15 +1,13 @@
+
+![asd](http://heimdash.com/grips.svg)  
+  
 grip.js
 =======
 <a href="https://codeclimate.com/github/p0wly/gripjs"><img src="https://codeclimate.com/github/p0wly/gripjs.png" /></a>
 
-![asd](http://heimdash.com/grips.svg)  
-  
-  
   
 Grip.js is a lightweight (1kb) insertion switch for Javascript files.  
-This can help replace Grunt or any other full-fledged build system in favor  
-of a more minimal approach. Borrowing from [require.js](https://github.com/jrburke/requirejs),  
-a single script tag in your HTML will
+This can help replace Grunt or any other full-fledged build system in favor of a more minimal approach. Borrowing from [require.js](https://github.com/jrburke/requirejs), a single script tag in your HTML will
 
 1. Insert an array of unpacked Javascript modules for development.
 2. Or a pretailored & minified production version of your JS.
@@ -17,8 +15,7 @@ a single script tag in your HTML will
 ### Performance
 
 Your HTML remains untouched. Scripts are pulled in a dynamic fashion.  
-Field tests have proven that this can speed up perceived and actual load time  
--- so don't wander off just yet.
+Field tests have proven that this can speed up perceived and actual load time -- so don't wander off just yet.
 
 ### Usage
 
