@@ -2,7 +2,7 @@ grip.js
 =======
 <a href="https://codeclimate.com/github/p0wly/gripjs"><img src="https://codeclimate.com/github/p0wly/gripjs.png" /></a>
 
-![asd](http://heimdash.com/gripjs.svg)  
+![asd](http://heimdash.com/grip.svg)  
   
   
   
