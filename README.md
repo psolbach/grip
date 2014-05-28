@@ -54,7 +54,7 @@ Consider this snippet where d, b, p, m map to opt.debug, opt.baseUrl, opt.min, o
     
 ### Questions?
 
-Feel free to drop a line to p@psolbach.com or @p0wly
+Feel free to drop a line to p@psolbach.com or @___paul
 
 ### Acknowledgements
 
