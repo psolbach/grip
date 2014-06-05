@@ -1,14 +1,12 @@
+![asd](http://heimdash.com/grips.svg)  
 grip.js
-=======  
+=======
+<a href="https://codeclimate.com/github/p0wly/gripjs"><img src="https://codeclimate.com/github/p0wly/gripjs.png" /></a>
 
-![asd](http://heimdash.com/gripjs.svg)  
-  
-  
   
 Grip.js is a lightweight (1kb) insertion switch for Javascript files.  
-This can help replace Grunt or any other full-fledged build system in favor  
-of a more minimal approach. Borrowing from [require.js](https://github.com/jrburke/requirejs),  
-a single script tag in your HTML will
+This can help replace Grunt or any other full-fledged build system in favor of a more minimal approach.  
+Borrowing from [require.js](https://github.com/jrburke/requirejs), a single script tag in your HTML will
 
 1. Insert an array of unpacked Javascript modules for development.
 2. Or a pretailored & minified production version of your JS.
@@ -16,8 +14,7 @@ a single script tag in your HTML will
 ### Performance
 
 Your HTML remains untouched. Scripts are pulled in a dynamic fashion.  
-Field tests have proven that this can speed up perceived and actual load time  
--- so don't wander off just yet.
+Field tests have proven that this can speed up perceived and actual load time -- so don't wander off just yet.
 
 ### Usage
 
@@ -45,7 +42,7 @@ Using a shell script in the flavor of [shelljs](https://github.com/arturadib/she
 fully integrate the generation of `modules.js` into the make/debug process.
 Consider this snippet where d, b, p, m map to opt.debug, opt.baseUrl, opt.min, opt.modules.
 
-    function makeSpark(d,b,p,m) {
+    function makeGrip(d,b,p,m) {
       var o = { "debug": d, "baseUrl": b, "min": "/" + p,
         "modules": d ? m : [] }, file = "'use strict'; window.opt = "
          + JSON.stringify(o)
@@ -57,7 +54,7 @@ Consider this snippet where d, b, p, m map to opt.debug, opt.baseUrl, opt.min, o
     
 ### Questions?
 
-Feel free to drop a line to p@psolbach.com or @_p0wly
+Feel free to drop a line to p@psolbach.com or @___paul
 
 ### Acknowledgements
 
