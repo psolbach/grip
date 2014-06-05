@@ -36,18 +36,23 @@ window.Grip = {
         this.append(url, head, this.options);
     },
 
-append: function(els,t,c) {
+    append: function(els,t,c) {
         // Create script element w/ src
-        (typeof(els) === "string") && (els = [els])
+
+        if (typeof(els) === "string") els = [els];
+        if (typeof(els) === "undefined") return;
+
         var qS = Math.random().toString(36).substring(7),
             i = 0, len = els.length,
-            
+
             createEls = function self() {
                 // Bind event to callback function.
                 // Debug Mode => Deterministic Loading
                 var s = document.createElement('script'); 
-                if (len>i+1) s.onload = s.onreadystatechange = self;
-                else s.onload = s.onreadystatechange = c;
+
+                if (len>i+1) s.onload = self;
+                else s.onload = c;
+
                 s.src = els[i] + (len>1 ? "?" + qS : "");
                 s.type = "text/javascript"; 
                 s.charset = "utf-8";
@@ -60,6 +65,7 @@ append: function(els,t,c) {
 
         // Append
         createEls()
+
     },
 
     options: function() {
@@ -97,4 +103,3 @@ append: function(els,t,c) {
 }
 
 Grip.init()
-
